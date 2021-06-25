@@ -322,40 +322,27 @@
 {{ $repoLink := "" }}
 
 {{$platformTag := $.Params.platform_tag}}
+{{ $docLink = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/" }}
+{{ $apiLink	 = print "https://apireference.groupdocs.cloud/" $.Params.product_tag "/"}}
+{{ $fsupportLink = print "https://forum.groupdocs.cloud/c/" $.Params.product_tag "/" }}
+{{ $blogLink = print "https://blog.groupdocs.cloud/category/" $.Params.product_tag "/"}}
+{{ $notesLink	 = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/release-notes/" }}	
+{{ $repoLink	 = print "https://github.com/groupdocs-" $.Params.product_tag "-cloud/" }}
 
-{{if in $.Page.Site.BaseURL "groupdocs.com" }}	
-	{{ $docLink = print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag}}
-    {{ $srcLink = print "https://github.com/groupdocs-" $.Params.product_tag }}
-    {{ $apiLink = print "https://apireference.groupdocs.com/" $.Params.product_tag   }}
-    {{ $vidLink = print "https://www.youtube.com/channel/UCSRRI9t9ooReVo82e1d1a0g/" }}
-    {{ $fsupportLink = print "https://forum.groupdocs.com/c/" $.Params.product_tag  }}
-    {{ $blogLink = print "https://blog.groupdocs.com/category/" $.Params.product_tag }}
-    {{ $notesLink = print "https://docs.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag "/release-notes" }}
-    {{ $freeTrialLink = print "https://downloads.groupdocs.com/" $.Params.product_tag "/" $.Params.platform_tag }}
-    {{ $repoLink = print "https://github.com/groupdocs-" $.Params.product_tag  }}
-	
-{{ else if in $.Page.Site.BaseURL "groupdocs.cloud" }}
-	{{ $docLink = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/" }}
-	{{ $apiLink	 = print "https://apireference.groupdocs.cloud/" $.Params.product_tag "/"}}
-	{{ $fsupportLink = print "https://forum.groupdocs.cloud/c/" $.Params.product_tag "/" }}
-	{{ $blogLink = print "https://blog.groupdocs.cloud/category/" $.Params.product_tag "/"}}
-	{{ $notesLink	 = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/release-notes/" }}	
-	{{ $repoLink	 = print "https://github.com/groupdocs-" $.Params.product_tag "-cloud/" }}
-
-	<!-- Source Code Link for curl -->
-	{{ if in $.Page.Permalink "curl" }}
-		{{ $srcLink = "https://groupdocscloud.github.io/" }}
+<!-- Source Code Link for curl -->
+{{ if in $.Page.Permalink "curl" }}
+	{{ $srcLink = "https://groupdocscloud.github.io/" }}
+{{ else }}
+	<!-- Source Code Link for .NET -->
+	{{ if eq $.Params.platform_tag "net" }}
+		{{$platformTag = print "dot" $platformTag}}
+		{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $platformTag "/"}}
 	{{ else }}
-		<!-- Source Code Link for .NET -->
-		{{ if eq $.Params.platform_tag "net" }}
-			{{$platformTag = print "dot" $platformTag}}
-			{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $platformTag "/"}}
-		{{ else }}
-		<!-- Source Code Link for others (java , php , python etc) -->
-		{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $.Params.platform_tag "/"}}
-		{{ end }}
+	<!-- Source Code Link for others (java , php , python etc) -->
+	{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $.Params.platform_tag "/"}}
 	{{ end }}
 {{ end }}
+
 
 <a id="support" class="anchor" name="support"></a>
 <section class="support bg-primary">

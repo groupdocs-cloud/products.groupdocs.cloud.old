@@ -226,7 +226,7 @@ features:
 
         # more_feature_loop
       - title: "Security and Authentication"
-        content: "The GroupDocs.Viewer Cloud API is secured and requires authentication. Users need to register at GroupDocs Cloud and get their app access key ID and app secret access key. Authenticated requests require a signature and AppSID query parameters or OAuth 2.0 athrorization header."
+        content: "The GroupDocs.Viewer Cloud API is secured and requires authentication. Users need to register at GroupDocs Cloud and get their app access key ID and app secret access key. Authenticated requests require a signature and AppSID query parameters or OAuth 2.0 authorization header."
 
 
         # more_feature_loop

@@ -1,15 +1,9 @@
 <head>
   <meta charset="utf-8">
-  
+
   <!-- Mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <!-- Site verifications -->
-  {{ if not (in .Site.BaseURL "sdks.groupdocs.cloud") }}
-  <meta name="baidu-site-verification" content="cscU32Frqy">
-  <meta name="yandex-verification" content="d9c1d73d40212e63">
-  <meta name="google-site-verification" content="Yv-mmER0pOkm2mnmxQ_lg86EO9k-mkBwNVqkD-Hc6sU">
-  {{ end }}
   <!-- Other -->
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-config" content="{{ `https://cms.admin.containerize.com/templates/groupdocs/images/browserconfig.xml` | relURL }}">
@@ -36,16 +30,6 @@
   {{ end }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27946748-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-27946748-1');
-  </script>
   
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" media="screen">
