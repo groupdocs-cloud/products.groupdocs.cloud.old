@@ -3,6 +3,7 @@
 {{- partial "head.html" . -}}
 
 <body>
+	{{- partialCached "GTM-body.html" . -}}
 	{{- partialCached "preloader.html" . -}}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
