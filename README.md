@@ -1,2 +1,12 @@
 # sdks.groupdocs.cloud
-GroupDocs Cloud Documentation
+GroupDocs Cloud Landing Pages
+
+### Run localy
+```
+hugo server
+```
+
+### Generate HTML
+```
+hugo
+```
