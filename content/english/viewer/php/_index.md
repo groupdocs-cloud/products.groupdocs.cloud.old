@@ -69,13 +69,32 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          GroupDocs.Viewer Cloud SDK for PHP requires PHP 5.5 or later.
+          An overview GroupDocs.Viewer Cloud API.
 
+        left:
+          enable: true
+          icon: "fa fa-cogs"
+          title: "Supported Categories"
+          content: |
+            * Word, Excel, PowerPoint
+            * Visio, Project, Outlook
+            * OpenDocument
+            * Images
+            * CAD Drawing Image formats
+            * PDF, XPS, Text, Web formats
+            * OneNote & others
         right:
           enable: true
-          icon: "fas fa-cubes"
-          title: "PHP 5.5 or later"
+          icon: "fab fa-html5"
+          title: "Feature Overview"
           content: |
+            * Get Document Information
+            * HTML Viewer
+            * Image Viewer
+            * PDF Viewer
+            * Rotating & Reordering
+            * Watermark Pages
+            * Rendering Attachments
             
       
       ## TAB TWO ##

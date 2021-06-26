@@ -11,12 +11,11 @@ platform_tag: "curl"
 
 ############################# Head ############################
 head_title: "Render PDF Word Excel Outlook via cURL | Document Viewer REST API"
-head_description: "REST APIs for Documents viewing and rendering via cURL commands. View PDF, images, Microsoft Word, Excel, PPTX, Visio, Project & 50+ file formats."
+head_description: "REST APIs for Documents viewing and rendering via cURL commands. View PDF, images, Microsoft Word, Excel, PPTX, Visio, Project & 85+ file formats."
 
 ############################# Header ############################
 title: "Simply use cURL to Render & View Documents"
-description: "Exposes RESTful APIs to view and render business documents & attachments for supported file formats. Render as PDF, HTML, PNG or JPG image.
-‎"
+description: "Exposes RESTful APIs to view and render business documents & attachments for supported file formats. Render as PDF, HTML, PNG or JPG image‎"
 button:
     enable: true
 
@@ -65,27 +64,31 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the main features supported by GroupDocs.Viewer Cloud for cURL.
+          An overview GroupDocs.Viewer Cloud API.
 
         left:
           enable: true
           icon: "fa fa-cogs"
-          title: "Document Rendering"
+          title: "Supported Categories"
           content: |
-            * Word, Excel, Powerpoint
-            * Visio, Project, Outlook, OneNote
+            * Word, Excel, PowerPoint
+            * Visio, Project, Outlook
             * OpenDocument
             * Images
-            *CAD Drawing Image formats
+            * CAD Drawing Image formats
             * PDF, XPS, Text, Web formats
-            * Many more formats
+            * OneNote & others
         right:
           enable: true
           icon: "fab fa-html5"
-          title: "Overview"
+          title: "Feature Overview"
           content: |
-            * Rotating, Reordering
-            * Watermarking pages
+            * Get Document Information
+            * HTML Viewer
+            * Image Viewer
+            * PDF Viewer
+            * Rotating & Reordering
+            * Watermark Pages
             * Rendering Attachments
       
       ## TAB TWO ##
@@ -131,40 +134,6 @@ overview:
       tab_three:
         description: |
           GroupDocs.Viewer Cloud for cURL - some of the supported languages and platforms.
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Development Environments"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
 
 ############################# Features ############################
 features:
@@ -218,7 +187,7 @@ features:
 
       # more_feature_loop
       - title: "Flexible Rendering of Documents"
-        content: "GroupDocs.Viewer Cloud is a powerful document viewer REST API that allows you to display over 50 document formats in your applications. It allows document rendering for the whole document, page by page or custom range of pages."
+        content: "GroupDocs.Viewer Cloud is a powerful document viewer REST API that allows you to display over 85 document formats in your applications. It allows document rendering for the whole document, page by page or custom range of pages."
        
        # more_feature_loop
       - title: "Language, Platform & Storage Independence"

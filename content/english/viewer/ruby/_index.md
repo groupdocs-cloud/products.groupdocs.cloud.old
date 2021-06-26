@@ -228,7 +228,7 @@ features:
       
       # more_feature_loop
       - title: "Flexible Rendering of Documents"
-        content: "GroupDocs.Viewer is a powerful document viewer REST API that allows you to display over 50 document formats in your applications. It allows document rendering for the whole document, page by page or custom range of pages."
+        content: "GroupDocs.Viewer is a powerful document viewer REST API that allows you to display over 85 document formats in your applications. It allows document rendering for the whole document, page by page or custom range of pages."
 
       # more_feature_loop
       - title: "Customize to Suit your Needs"

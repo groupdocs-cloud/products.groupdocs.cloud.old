@@ -117,9 +117,9 @@
                                     <header>GroupDocs.{{ $.Params.product }}</header>
                                     <footer>
                                         {{ if eq $.Params.platform "cURL" }}
-					                        <small><em>Cloud for</em> {{ $.Params.platform }}</small>
+					                        <small><em>Cloud for {{ $.Params.platform }}</em></small>
 					                    {{ else }}
-					                        <small><em>Cloud SDK for</em> {{ $.Params.platform }}</small>
+					                        <small><em>Cloud SDK for {{ $.Params.platform }}</em></small>
 					                    {{end}}
                                     </footer>
                                 </div>
@@ -129,10 +129,7 @@
                         <div class="item">
                             <p>{{ .tab_three.description | markdownify }}‎</p>
                             <div class="diagram1 d1-cloud">
-                                
-                                   <img title="Platform Independence" src="https://www.groupdocs.cloud/templates/groupdocs/images/supported-platform-min.webp" alt="GroupDocs.Editor Platform Independence" />
-                                
-                                
+                                   <img title="Platform Independence" src="/supported-platform-min.webp" alt="GroupDocs Cloud Platform Independence"/>
                             </div>
                         </div>
                     </div>
@@ -318,10 +315,9 @@
 {{ $fsupportLink := "" }}
 {{ $blogLink := "" }}
 {{ $notesLink := "" }}
-{{ $freeTrialLink := "" }}
 {{ $repoLink := "" }}
 
-{{$platformTag := $.Params.platform_tag}}
+{{ $platformTag := $.Params.platform_tag}}
 {{ $docLink = print "https://docs.groupdocs.cloud/" $.Params.product_tag "/" }}
 {{ $apiLink	 = print "https://apireference.groupdocs.cloud/" $.Params.product_tag "/"}}
 {{ $fsupportLink = print "https://forum.groupdocs.cloud/c/" $.Params.product_tag "/" }}
@@ -336,10 +332,10 @@
 	<!-- Source Code Link for .NET -->
 	{{ if eq $.Params.platform_tag "net" }}
 		{{$platformTag = print "dot" $platformTag}}
-		{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $platformTag "/"}}
+		{{$srcLink =  print "https://github.com/groupdocs-" $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $platformTag "/"}}
 	{{ else }}
 	<!-- Source Code Link for others (java , php , python etc) -->
-	{{$srcLink =  print $srcLink $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $.Params.platform_tag "/"}}
+	{{$srcLink =  print "https://github.com/groupdocs-" $.Params.product_tag "-cloud/groupdocs-" $.Params.product_tag "-cloud-" $.Params.platform_tag "/"}}
 	{{ end }}
 {{ end }}
 
@@ -395,7 +391,7 @@
         </div>
         <div class="row support-btns">
             <div class="col-xs-12 col-sm-6 col-md-6">
-                <a href="{{ $freeTrialLink }}" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Start Free Trial</a>
+                <a href="https://dashboard.groupdocs.cloud/" class="btn btn-support btn-icon animated fadeInUp"><i class="fas fa-arrow-down"></i> Start Free Trial</a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <a href="{{ $repoLink }}" class="btn btn-support btn-icon animated fadeInUp"><i class="fab fa-github-alt"></i> Download Github Repository</a>
