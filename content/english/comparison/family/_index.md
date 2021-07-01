@@ -64,7 +64,7 @@ apis:
           content: "Cloud-based, document comparison and difference checker applications development via Python."
 
         # api_product loop
-        - link: "/comparison/node.js"
+        - link: "/comparison/nodejs/"
           img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"

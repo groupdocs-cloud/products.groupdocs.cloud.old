@@ -226,40 +226,40 @@ solutions:
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
           platform: "cURL"
-          link: "/comparison/curl"
+          link: "/comparison/curl/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_comparison-for-net.webp"
           product: "GroupDocs.Comparison"
           platform: ".NET"
-          link: "/comparison/net"
+          link: "/comparison/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_comparison-for-java.webp"
           product: "GroupDocs.Comparison"
           platform: "Java"
-          link: "/comparison/java"
+          link: "/comparison/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_comparison-for-python.webp"
           product: "GroupDocs.Comparison"
           platform: "Python"
-          link: "/comparison/python"
+          link: "/comparison/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_comparison-for-ruby.webp"
           product: "GroupDocs.Comparison"
           platform: "Ruby"
-          link: "/comparison/ruby"
+          link: "/comparison/ruby/"
         # solution loop
         - img_alt: "GroupDocs.Comparison Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_comparison-for-node.webp"
           product: "GroupDocs.Comparison"
           platform: "Node.js"
-          link: "/comparison/nodejs"
+          link: "/comparison/nodejs/"
 
         
 

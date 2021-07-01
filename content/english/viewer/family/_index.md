@@ -76,7 +76,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/viewer/node.js"
+        - link: "/viewer/nodejs/"
           img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_viewer-for-node.webp"
           product: "GroupDocs.Viewer"

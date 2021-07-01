@@ -69,38 +69,19 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview GroupDocs.Viewer Cloud API.
+          GroupDocs.Viewer Cloud SDK for PHP requires PHP 5.5 or later.
 
-        left:
-          enable: true
-          icon: "fa fa-cogs"
-          title: "Supported Categories"
-          content: |
-            * Word, Excel, PowerPoint
-            * Visio, Project, Outlook
-            * OpenDocument
-            * Images
-            * CAD Drawing Image formats
-            * PDF, XPS, Text, Web formats
-            * OneNote & others
         right:
           enable: true
-          icon: "fab fa-html5"
-          title: "Feature Overview"
+          icon: "fas fa-cubes"
+          title: "PHP 5.5 or later"
           content: |
-            * Get Document Information
-            * HTML Viewer
-            * Image Viewer
-            * PDF Viewer
-            * Rotating & Reordering
-            * Watermark Pages
-            * Rendering Attachments
             
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer Cloud supports a number of document formats.
+          GroupDocs.Viewer Cloud SDK for PHP supports a number of document formats.
 
         left:
           enable: true

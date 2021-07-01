@@ -233,42 +233,42 @@ solutions:
           image: "/sdk/272x272/groupdocs_parser-for-net.webp"
           product: "GroupDocs.Parser"
           platform: ".NET"
-          link: "/parser/net"
+          link: "/parser/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_parser-for-java.webp"
           product: "GroupDocs.Parser"
           platform: "Java"
-          link: "/parser/java"
+          link: "/parser/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_parser-for-php.webp"
           product: "GroupDocs.Parser"
           platform: "PHP"
-          link: "/parser/php"
+          link: "/parser/php/"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_parser-for-python.webp"
           product: "GroupDocs.Parser"
           platform: "Python"
-          link: "/parser/python"
+          link: "/parser/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_parser-for-ruby.webp"
           product: "GroupDocs.Parser"
           platform: "Ruby"
-          link: "/parser/ruby"
+          link: "/parser/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Parser Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_parser-for-node.webp"
           product: "GroupDocs.Parser"
           platform: "Node.js"
-          link: "/parser/nodejs"
+          link: "/parser/nodejs/"
    
 
 ############################# Back to top ###############################

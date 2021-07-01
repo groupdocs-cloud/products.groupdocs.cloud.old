@@ -76,7 +76,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/signature/node.js"
+        - link: "/signature/nodejs/"
           img_alt: "GroupDocs.Signature Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_signature-for-node.webp"
           product: "GroupDocs.Signature"

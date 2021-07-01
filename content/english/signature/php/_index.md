@@ -234,49 +234,49 @@ solutions:
           image: "/sdk/272x272/groupdocs_signature-for-curl.webp"
           product: "GroupDocs.Signature"
           platform: "cURL"
-          link: "/signature/curl"
+          link: "/signature/curl/"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_signature-for-net.webp"
           product: "GroupDocs.Signature"
           platform: ".NET"
-          link: "/signature/net"
+          link: "/signature/net/"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_signature-for-java.webp"
           product: "GroupDocs.Signature"
           platform: "Java"
-          link: "/signature/java"
+          link: "/signature/java/"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_signature-for-python.webp"
           product: "GroupDocs.Signature"
           platform: "Python"
-          link: "/signature/python"
+          link: "/signature/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_signature-for-ruby.webp"
           product: "GroupDocs.Signature"
           platform: "Ruby"
-          link: "/signature/ruby"
+          link: "/signature/ruby/"
 
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_signature-for-node.webp"
           product: "GroupDocs.Signature"
           platform: "Node.js"
-          link: "/signature/nodejs"
+          link: "/signature/nodejs/"
           
         # solution loop
         - img_alt: "GroupDocs.Signature Cloud SDK for Android"
           image: "/sdk/272x272/groupdocs_signature-for-android.webp"
           product: "GroupDocs.Signature"
           platform: "Android"
-          link: "/signature/android"
+          link: "/signature/android/"
         
 
 ############################# Back to top ###############################

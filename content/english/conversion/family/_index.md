@@ -76,7 +76,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/conversion/node.js"
+        - link: "/conversion/nodejs/"
           img_alt: "GroupDocs.Conversion Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_conversion-for-node.webp"
           product: "GroupDocs.Conversion"

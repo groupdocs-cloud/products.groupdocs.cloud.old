@@ -199,55 +199,55 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Viewer Cloud also offers individual document rendering SDKs for other popular languages as listed below:"
+    title: "GroupDocs..Annotation Cloud also offers individual document rendering SDKs for other popular languages as listed below:"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_annotation-for-curl.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "cURL"
           link: "/annotation/curl/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_annotation-for-net.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: ".NET"
           link: "/annotation/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_annotation-for-java.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "Java"
           link: "/annotation/java/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for PHP"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for PHP"
           image: "/sdk/272x272/groupdocs_annotation-for-php.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "PHP"
           link: "/annotation/php/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_annotation-for-python.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "Python"
           link: "/annotation/python/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Ruby"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for Ruby"
           image: "/sdk/272x272/groupdocs_annotation-for-ruby.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "Ruby"
           link: "/annotation/ruby/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Node.js"
+        - img_alt: "GroupDocs..Annotation Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_annotation-for-node.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs..Annotation"
           platform: "Node.js"
           link: "/annotation/nodejs/"
 

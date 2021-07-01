@@ -300,13 +300,6 @@ solutions:
           platform: "Node.js"
           link: "/annotation/nodejs/"
 
-        # solution loop
-        - img_alt: "GroupDocs.Annotation Cloud SDK for Android"
-          image: "/sdk/272x272/groupdocs_annotation-for-android.webp"
-          product: "GroupDocs.Annotation"
-          platform: "Android"
-          link: "/annotation/android/"
-
 ############################# Back to top ###############################
 back_to_top:
   enable: true

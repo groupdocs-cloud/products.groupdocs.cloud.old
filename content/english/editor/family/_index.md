@@ -82,7 +82,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/editor/nodejs"
+        - link: "/editor/nodejs/"
           img_alt: "GroupDocs.Editor Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_editor-for-node.webp"
           product: "GroupDocs.Editor"

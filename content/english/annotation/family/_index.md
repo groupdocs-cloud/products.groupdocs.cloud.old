@@ -76,7 +76,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/annotation/node.js"
+        - link: "/annotation/nodejs/"
           img_alt: "GroupDocs.Annotation Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_annotation-for-node.webp"
           product: "GroupDocs.Annotation"

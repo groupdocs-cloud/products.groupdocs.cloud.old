@@ -82,7 +82,7 @@ apis:
     # api loop
     - api_product:
         # api_product loop
-        - link: "/parser/nodejs"
+        - link: "/parser/nodejs/"
           img_alt: "GroupDocs.Parser Cloud SDK for Node.js"
           image: "/sdk/272x272/groupdocs_parser-for-node.webp"
           product: "GroupDocs.Parser"
