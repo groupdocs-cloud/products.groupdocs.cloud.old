@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Editor Cloud for cURL"
           image: "/sdk/272x272/groupdocs_editor-for-curl.webp"
           product: "GroupDocs.Editor"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL RESTful document editor API to modify document contents of Word, Excel, Presentations, HTML and Text documents in your applications."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
 
     # api loop
     - title: "GroupDocs.Editor On Premise APIs Include"
-      link: "https://products.groupdocs.com/editor/"
+      link: "/editor/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/editor/net/"
+        - link: "/editor/net/"
           img_alt: "GroupDocs.Editor for .NET"
           image: "/logo/net/groupdocs-editor.png"
           product: "GroupDocs.Editor"
@@ -60,7 +60,7 @@ apis:
           content: "On Premise .NET API that helps your application to view, edit and then convert documents."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/editor/java/"
+        - link: "/editor/java/"
           img_alt: "GroupDocs.Editor for Java"
           image: "/logo/java/groupdocs-editor.png"
           product: "GroupDocs.Editor"

@@ -26,7 +26,7 @@ apis:
           img_alt: "GroupDocs.Classification Cloud for cURL"
           image: "/sdk/272x272/groupdocs_classification-for-curl.webp"
           product: "GroupDocs.Classification"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Use cURL for calling the RESTful APIs to add classification abilities, with support for 3rd party classification services, to your application, regardless of a coding language or platform."
 
         # api_product loop

@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Comparison Cloud for cURL"
           image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
           product: "GroupDocs.Comparison"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Interact with the document comparison REST API using cURL. Quickly detect differences between documents of the same format."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
 
     # api loop
     - title: "GroupDocs.Comparison On Premise APIs Include"
-      link: "https://products.groupdocs.com/comparison/"
+      link: "/comparison/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/comparison/net/"
+        - link: "/comparison/net/"
           img_alt: "GroupDocs.Comparison for .NET"
           image: "/logo/net/groupdocs-comparison.png"
           product: "GroupDocs.Comparison"
@@ -60,7 +60,7 @@ apis:
           content: "Native .NET API to efficiently add, edit or delete comparisons from documents and images. Supports working with all popular comparison types."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/comparison/java/"
+        - link: "/comparison/java/"
           img_alt: "GroupDocs.Comparison for Java"
           image: "/logo/java/groupdocs-comparison.png"
           product: "GroupDocs.Comparison"

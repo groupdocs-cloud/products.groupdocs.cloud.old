@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Viewer Cloud for cURL"
           image: "/sdk/272x272/groupdocs_viewer-for-curl.webp"
           product: "GroupDocs.Viewer"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL RESTful document viewer API to quickly render and display Microsoft Office, PDF and other common file formats in your applications."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
 
     # api loop
     - title: "GroupDocs.Viewer On Premise APIs Include"
-      link: "https://products.groupdocs.com/viewer/"
+      link: "/viewer/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/viewer/net/"
+        - link: "/viewer/net/"
           img_alt: "GroupDocs.Viewer for .NET"
           image: "/logo/net/groupdocs-viewer.png"
           product: "GroupDocs.Viewer"
@@ -60,7 +60,7 @@ apis:
           content: "Multi-format document viewer API for .NET and Mono frameworks to render 170+ popular file formats from within your applications."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/viewer/java/"
+        - link: "/viewer/java/"
           img_alt: "GroupDocs.Viewer for Java"
           image: "/logo/java/groupdocs-viewer.png"
           product: "GroupDocs.Viewer"

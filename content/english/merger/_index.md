@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Merger Cloud for cURL"
           image: "/sdk/272x272/groupdocs_merger-for-curl.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Simple cURL commands for RESTful document merger Cloud API to merge and split documents across the wide range of supported popular document formats."
 
         # api_product loop
@@ -47,11 +47,11 @@ apis:
           content: "Combine multiple documents into one, split any document to multiple, reorder, replace or change page orientation in your Java applications."
     # api loop
     - title: "GroupDocs.Merger On Premise APIs Include"
-      link: "https://products.groupdocs.com/merger/"
+      link: "/merger/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/merger/net/"
+        - link: "/merger/net/"
           img_alt: "GroupDocs.Merger for .NET"
           image: "/logo/net/groupdocs-merger.png"
           product: "GroupDocs.Merger"
@@ -59,7 +59,7 @@ apis:
           content: "On-Premise API for Microsoft .NET allows developer to merge and split documents within ASP.NET, Windows Forms, WPF, WCF and all types of .NET applications."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/merger/java/"
+        - link: "/merger/java/"
           img_alt: "GroupDocs.Merger"
           image: "/logo/java/groupdocs-merger.png"
           product: "GroupDocs.Merger"

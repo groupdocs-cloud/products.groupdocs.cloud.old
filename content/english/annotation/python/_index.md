@@ -68,16 +68,27 @@ overview:
           PyPi package is required for communicating with the GroupDocs.Annotation Cloud SDK API for Python.‎
       
         left:
-          enable: false
+          enable: true
           icon: "fas fa-crop"
           title: "Figure Annotations"
           content: |
-            
+            * Area annotation
+            * Point annotation
+            * Area redaction
+            * Polyline
+            * Pointer/arrow
+            * Watermark
+            * Distance
         right:
           enable: true
-          icon: "fas fa-cubes"
-          title: "Python 2.7 or 3.4+"
+          icon: "fas fa-file-alt"
+          title: "Text Annotations"
           content: |
+            * Annotation
+            * Replacement
+            * Redaction
+            * Strikethrough / Underline
+            * Typewriter
             
       
       ## TAB TWO ##

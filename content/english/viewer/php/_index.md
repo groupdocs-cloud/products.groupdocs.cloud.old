@@ -100,7 +100,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer Cloud SDK for PHP supports a number of document formats.
+          GroupDocs.Viewer Cloud supports a number of document formats.
 
         left:
           enable: true

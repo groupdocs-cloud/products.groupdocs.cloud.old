@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Signature Cloud for cURL"
           image: "/sdk/272x272/groupdocs_signature-for-curl.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL RESTful document signature API to add & manipulate different signature types in all popular document formats including PDF, Word, Excel & images."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
 
     # api loop
     - title: "GroupDocs.Signature On Premise APIs Include"
-      link: "https://products.groupdocs.com/signature/"
+      link: "/signature/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/signature/net/"
+        - link: "/signature/net/"
           img_alt: "GroupDocs.Signature for .NET"
           image: "/logo/net/groupdocs-signature.png"
           product: "GroupDocs.Signature"
@@ -60,7 +60,7 @@ apis:
           content: "Native .NET API to add, search and verify most popular digital signature types to Microsoft Office, PDF, images and various other formats in .NET applications."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/signature/java/"
+        - link: "/signature/java/"
           img_alt: "GroupDocs.Signature for Java"
           image: "/logo/java/groupdocs-signature.png"
           product: "GroupDocs.Signature"

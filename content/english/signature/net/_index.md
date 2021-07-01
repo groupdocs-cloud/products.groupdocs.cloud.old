@@ -7,7 +7,7 @@ draft: false
 product: "Signature"
 product_tag: "signature"
 platform: ".NET"
-platform_tag: ".net"
+platform_tag: "net"
 
 ############################# Head ############################
 head_title: ".NET Document Signature Cloud SDK for PDF Word Excel PPTX & Images"
@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://groupdocscloud.github.io/"
+        link_download: "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-dotnet"
         link_learn: "https://docs.groupdocs.cloud/signature/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
@@ -64,7 +64,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the features supported by GroupDocs.Signature Cloud SDK for .NET.
+          An overview of the features supported by GroupDocs.Signature Cloud.
       
         left:
           enable: true
@@ -162,11 +162,11 @@ features:
         content: "Provide the list of supported document formats"
 
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Retrieve document pages information"
 
       # feature loop
-      - icon: "fas fa-file-text-o"
+      - icon: "fas fa-file-alt"
         content: "Retrieve document properties"
       
       # feature loop
@@ -185,7 +185,7 @@ features:
         content: "Search multiple signatures"
       
       # feature loop
-      - icon: "fas fa-sign-in"
+      - icon: "fas fa-sign-in-alt"
         content: "Add multiple signatures"
     
     more_feature:
@@ -234,7 +234,7 @@ solutions:
         - img_alt: "GroupDocs.Signature Cloud for cURL"
           image: "/sdk/272x272/groupdocs_signature-for-curl.webp"
           product: "GroupDocs.Signature"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           link: "/signature/curl"
 
         # solution loop

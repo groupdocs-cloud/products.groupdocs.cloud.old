@@ -26,7 +26,7 @@ apis:
           img_alt: "GroupDocs.Conversion Cloud for cURL"
           image: "/sdk/272x272/groupdocs_conversion-for-curl.webp"
           product: "GroupDocs.Conversion"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Use cURL to send requests to Document Conversion REST API and convert documents to or from a format of your choice. "
 
         # api_product loop

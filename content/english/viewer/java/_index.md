@@ -51,7 +51,7 @@ submenu:
 
     right:
         link_download: "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-java"
-        link_learn: "https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-java"
+        link_learn: "https://docs.groupdocs.cloud/viewer/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
 ############################# Overview ############################
@@ -100,7 +100,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer Cloud SDK for Java supports a number of document formats.
+          GroupDocs.Viewer Cloud supports a number of document formats.
 
         left:
           enable: true
@@ -139,7 +139,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Viewer Cloud for cURL - some of the supported languages and platforms.
+          GroupDocs.Viewer Cloud - some of the supported languages and platforms.
         
         left:
           enable: true

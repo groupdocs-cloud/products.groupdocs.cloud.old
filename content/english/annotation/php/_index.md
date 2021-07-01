@@ -67,16 +67,27 @@ overview:
           SDK requires only PHP and can run on any platform where this requirement can be met.
       
         left:
-          enable: false
+          enable: true
           icon: "fas fa-crop"
           title: "Figure Annotations"
           content: |
-            
+            * Area annotation
+            * Point annotation
+            * Area redaction
+            * Polyline
+            * Pointer/arrow
+            * Watermark
+            * Distance
         right:
           enable: true
-          icon: "fas fa-cubes"
-          title: "PHP 5.5 or later"
+          icon: "fas fa-file-alt"
+          title: "Text Annotations"
           content: |
+            * Annotation
+            * Replacement
+            * Redaction
+            * Strikethrough / Underline
+            * Typewriter
             
       
       ## TAB TWO ##

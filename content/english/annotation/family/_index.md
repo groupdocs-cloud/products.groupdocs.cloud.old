@@ -26,7 +26,7 @@ apis:
           img_alt: "GroupDocs.Annotation Cloud for cURL"
           image: "/sdk/272x272/groupdocs_annotation-for-curl.webp"
           product: "GroupDocs.Annotation"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Use cURL to annotate a variety of documents & images. Run it on any platform."
 
         # api_product loop

@@ -7,7 +7,7 @@ draft: false
 product: "Viewer"
 product_tag: "viewer"
 platform: "Node.js"
-platform_tag: "nodejs"
+platform_tag: "node"
 
 ############################# Head ############################
 head_title: "Node.js Document Viewer Cloud SDK | Render PDF Word Excel Visio HTML"
@@ -100,7 +100,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Viewer Cloud SDK for Node.js supports a number of document formats.
+          GroupDocs.Viewer Cloud supports a number of document formats.
 
         left:
           enable: true

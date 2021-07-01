@@ -49,8 +49,8 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://purchase.groupdocs.cloud/pricing"
-        link_learn: "https://purchase.groupdocs.cloud/pricing"
+        link_download: "https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-java"
+        link_learn: "https://docs.groupdocs.cloud/annotation/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
 ############################# Overview ############################

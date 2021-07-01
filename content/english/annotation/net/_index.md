@@ -256,7 +256,7 @@ solutions:
         - img_alt: "GroupDocs.Annotation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_annotation-for-curl.webp"
           product: "GroupDocs.Annotation"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           link: "/annotation/curl/"
 
         # solution loop

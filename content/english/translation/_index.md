@@ -48,11 +48,11 @@ apis:
 
     # api loop
     - title: "GroupDocs.Translation On Premise APIs Include"
-      link: "https://products.groupdocs.com/translation/"
+      link: "/translation/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/translation/net/"
+        - link: "/translation/net/"
           img_alt: "GroupDocs.Translation for .NET"
           image: "/logo/net/groupdocs-translation.png"
           product: "GroupDocs.Translation"

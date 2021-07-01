@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Metadata Cloud for cURL"
           image: "/sdk/272x272/groupdocs_metadata-for-curl.webp"
           product: "GroupDocs.Metadata"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
    
    # api loop
     - title: "GroupDocs.Metadata On Premise APIs Include"
-      link: "https://products.groupdocs.com/metadata/"
+      link: "/metadata/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/metadata/net/"
+        - link: "/metadata/net/"
           img_alt: "GroupDocs.Metadata for .NET"
           image: "/logo/net/groupdocs-metadata.png"
           product: "GroupDocs.Metadata"
@@ -60,7 +60,7 @@ apis:
           content: "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/metadata/java/"
+        - link: "/metadata/java/"
           img_alt: "GroupDocs.Metadata for Java"
           image: "/logo/java/groupdocs-metadata.png"
           product: "GroupDocs.Metadata"

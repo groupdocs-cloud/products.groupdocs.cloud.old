@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Comparison Cloud for cURL"
         image: "/sdk/272x272/groupdocs_comparison-for-curl.webp"
         product: "GroupDocs.Comparison"
-        platform: "Cloud for cURL"
+        platform: "cURL"
 
     middle:
         button:
@@ -68,32 +68,21 @@ overview:
       
         left:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-check"
-              title: "Accept retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-bookmark-o"
-              title: "Document Resources"
-              content: |
-                * Result document
-                * Stream of result
-                * Images of result
-
+          icon: "fas fa-crop"
+          title: "Document Resources"
+          content: |
+            * Accept retrieved changes
+            * Result document
+            * Stream of result
+            * Images of result
         right:
           enable: true
-          table:
-            # table loop
-            - icon: "fas fa-trash-o"
-              title: "Reject retrieved changes"
-              
-            # table loop
-            - icon: "fas fa-retweet"
-              title: "Changes Resources"
-              content: |
-                * Get changes
-                * Update changes
+          icon: "fas fa-file-alt"
+          title: "Changes Resources"
+          content: |
+            * Reject retrieved changes
+            * Get changes
+            * Update changes
 
       ## TAB TWO ##
       tab_two:
@@ -171,7 +160,7 @@ features:
 
     feature:
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Multiple file formats support"
 
       # feature loop

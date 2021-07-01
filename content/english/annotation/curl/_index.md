@@ -123,40 +123,6 @@ overview:
       tab_three:
         description: |
           Supported Operating Systems and Frameworks
-      
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Development Environments"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
 
 ############################# Features ############################
 features:
@@ -218,9 +184,7 @@ features:
       # more_feature_loop
       - title: "Robust Set of Annotation Tools"
         content: "GroupDocs.Annotation Cloud for cURL supports a robust set of annotation types, which can primarily be divided into two categories; graphical annotations and text-based annotations. Both of these categories have further sub-categories of annotations and markups that you can use in your document annotation solutions.
-
         Text based annotations, include adding comments to various text selections, hiding text of choice by redaction, applying various text markups, e.g., underlines and strikethroughs, and adding sticky notes to rich text.
-
         On the other hand, graphical annotations include, area annotations to highlight area with rectangle in order to add notes, area redaction to hide classified text or image, point annotations to pick a point and apply notes to it, Pointer/arrow annotations to drop arrow for pointing towards an object within document, polyline annotation to draw freehand shapes and lines, watermark annotations to apply text-based watermark overlays, and distance annotations."
 
       # more_feature_loop

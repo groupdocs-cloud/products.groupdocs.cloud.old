@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Annotation Cloud REST API for .NET allows you to programmatically work with business document annotation operations and develop tools using C# and other .NET technologies. The tools that you develop using our annotation SDK for .NET APIs, enable your end-users to annotate files of supported file formats, such as PDF, Microsoft Word, Excel, PowerPoint, Images and various other formats. Apply redactions, watermark overlays, sticky notes, pointers and text markups etc. The open-source SDK works as a wrapper for cross-platform .NET REST APIs. Apply annotations as drawings or text markups.
+      GroupDocs.Annotation Cloud SDK for Node.js RESTful APIs is all you need to build document annotator tools in Node.js. Your application will be able to add annotations, watermark overlays, text replacements, redactions, sticky notes and text markups to the business documents of all popular formats such as, PDF, Microsoft Word, Excel, PowerPoint, Outlook, images other formats. Rapidly develop Annotation applications in Node.js using our SDK that works as a wrapper around Node.js APIs and makes the solution cross-platform compatible. Support for 3rd party cloud storage providers, e.g., Amazon S3, Windows Azure, Dropbox and others is also provided.‎
     tabs:
       enable: true
       
@@ -67,16 +67,27 @@ overview:
           Node.js module is required for communicating with the GroupDocs.Annotation Cloud SDK API for Node.js.‎
       
         left:
-          enable: false
+          enable: true
           icon: "fas fa-crop"
           title: "Figure Annotations"
           content: |
-            
+            * Area annotation
+            * Point annotation
+            * Area redaction
+            * Polyline
+            * Pointer/arrow
+            * Watermark
+            * Distance
         right:
           enable: true
-          icon: "fas fa-cubes"
-          title: "Node.js 4.8.7 or higher"
+          icon: "fas fa-file-alt"
+          title: "Text Annotations"
           content: |
+            * Annotation
+            * Replacement
+            * Redaction
+            * Strikethrough / Underline
+            * Typewriter
             
       
       ## TAB TWO ##
@@ -229,10 +240,6 @@ features:
         While using text-based annotation, you can add text comments to selected text; highlight which text ‎should be replaced with what, hide confidential text using text redaction, highlight text with ‎strikethroughs/underlines, and add sticky notes with rich text.‎
 
         While working with figure annotations, you can add notes to an area highlighted with a rectangle (Area ‎Annotation), add notes to any point in the document (Point Annotation), hide confidential parts of an ‎image or text (Area Redaction), draw freehand lines and shapes (Polyline), arrows pointing to an ‎object (Pointer/Arrow), create text-based watermark overlays (Watermark), and measure the ‎distance between any objects in a document (Distance Annotation).‎"
-
-      # more_feature_loop
-      - title: "Easy Integration"
-        content: "Integration of GroupDocs.Annotation Cloud SDK in to your C# or other .NET based applications is pretty easy and straight-forward. Simply create an account at GroupDocs.Cloud and get the App SID & App Key and you are good to go."
 
       # more_feature_loop
       - title: "Easy Customization"

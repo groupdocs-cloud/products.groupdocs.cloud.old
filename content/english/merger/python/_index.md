@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://github.com/groupdocs-annotation-cloud/groupdocs-merger-cloud-python"
+        link_download: "https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python"
         link_learn: "https://docs.groupdocs.cloud/merger/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
@@ -65,7 +65,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the features supported by the document merger Cloud API for Python.
+          An overview of the features supported by the document merger Cloud API.
       
         left:
           enable: true
@@ -83,14 +83,14 @@ overview:
             * Swap any two pages
         right:
           enable: true
-          icon: "fas fa-files-o"
-          title: "Multiple Files Operations"
+          icon: "fas fa-lock"
+          title: "Security Operations"
           content: |
-            * Combine multiple documents into one
             * Add document password
             * Update document password
             * Remove document password
-            * Check document for password protection
+            * Check document for password
+            * Combine multiple documents
       
       ## TAB TWO ##
       tab_two:
@@ -169,7 +169,7 @@ features:
 
     feature:
       # feature loop
-      - icon: "fas fa-files-o"
+      - icon: "fas fa-file"
         content: "Combine multiple pages, slides or spreadsheets into a single document"
 
       # feature loop
@@ -177,11 +177,11 @@ features:
         content: "Swap position of any two pages, slides or sheets within a document"
 
       # feature loop
-      - icon: "fas fa-repeat"
+      - icon: "fas fa-redo-alt"
         content: "Rotate pages by setting rotation angles like 90, 180 or 270 degrees"
       
       # feature loop
-      - icon: "fas fa-scissors"
+      - icon: "fas fa-cut"
         content: "Split any document into smaller files"
 
       # feature loop
@@ -189,11 +189,11 @@ features:
         content: "Remove any single or collection of specific pages"
 
       # feature loop
-      - icon: "fas fa-refresh"
+      - icon: "fas fa-sync-alt"
         content: "Change page orientation"
 
       # feature loop
-      - icon: "fas fa-sort-amount-asc"
+      - icon: "fas fa-sort-amount-down-alt"
         content: "Rearrange pages, slides or diagrams"
 
       # feature loop
@@ -241,7 +241,7 @@ solutions:
         - img_alt: "GroupDocs.Merger Cloud for cURL"
           image: "/sdk/272x272/groupdocs_merger-for-curl.webp"
           product: "GroupDocs.Merger"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           link: "/merger/curl"
 
         # solution loop

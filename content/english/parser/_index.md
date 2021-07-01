@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Parser Cloud for cURL"
           image: "/sdk/272x272/groupdocs_parser-for-curl.webp"
           product: "GroupDocs.Parser"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "cURL commands for RESTful document parser Cloud API to parse documents and extract data from documents and containers like ZIP archives & PDF Portfolios."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
    
    # api loop
     - title: "GroupDocs.Parser On Premise APIs Include"
-      link: "https://products.groupdocs.com/parser/"
+      link: "/parser/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/parser/net/"
+        - link: "/parser/net/"
           img_alt: "GroupDocs.Parser for .NET"
           image: "/logo/net/groupdocs-parser.png"
           product: "GroupDocs.Parser"
@@ -60,7 +60,7 @@ apis:
           content: "On Premise Parser APIs for .NET Framework based applications to extract data from the supported document file formats."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/parser/java/"
+        - link: "/parser/java/"
           img_alt: "GroupDocs.Parser for Java"
           image: "/logo/java/groupdocs-parser.png"
           product: "GroupDocs.Parser"

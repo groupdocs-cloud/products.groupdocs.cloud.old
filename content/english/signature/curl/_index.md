@@ -27,7 +27,7 @@ submenu:
         img_alt: "GroupDocs.Signature Cloud for cURL"
         image: "/sdk/272x272/groupdocs_signature-for-curl.webp"
         product: "GroupDocs.Signature"
-        platform: "Cloud for cURL"
+        platform: "cURL"
 
     middle:
         button:
@@ -64,7 +64,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the features supported by GroupDocs.Signature Cloud for cURL.
+          An overview of the features supported by GroupDocs.Signature Cloud.
       
         left:
           enable: true
@@ -162,11 +162,11 @@ features:
         content: "Provide the list of supported document formats"
 
       # feature loop
-      - icon: "fas fa-file-o"
+      - icon: "fas fa-file"
         content: "Retrieve document pages information"
 
       # feature loop
-      - icon: "fas fa-file-text-o"
+      - icon: "fas fa-file-alt"
         content: "Retrieve document properties"
       
       # feature loop
@@ -193,7 +193,7 @@ features:
       - title: "Supported file formats list - cURL"
         content: |          
           
-          ```cURL
+          ```shell
           curl -X GET "https://api.groupdocs.cloud/v2.0/signature/formats" -H "accept: application/json" -H "authorization: Bearer xxxxxx"
           ```
       # more_feature_loop
@@ -207,6 +207,7 @@ features:
                 * Support signature on Microsoft Documents formats like MSWord Documents, Excel Spreadsheets, PowerPoint Presentations
                 * Support signature for Open Document Formats, HTML and many more
                 * Verify documents for signatures
+                
       # more_feature_loop
       - title: "Flexible Deployment Options"
         content: "Our RESTful electronic signature API is easy to understand, clearly documented and comes with SDKs and live examples for all major languages. For developers who prefer on-premises deployment, we also offer downloadable APIs for .NET, Java, PHP and many other platforms."

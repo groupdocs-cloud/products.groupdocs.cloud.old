@@ -27,7 +27,7 @@ apis:
           img_alt: "GroupDocs.Watermark Cloud for cURL"
           image: "/sdk/272x272/groupdocs_watermark-for-curl.webp"
           product: "GroupDocs.Watermark"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL RESTful document watermark API to quickly annotate PDF, Word, Excel, PowerPoint, Visio, images and many other formats in your applications."
 
         # api_product loop
@@ -48,11 +48,11 @@ apis:
     
     # api loop
     - title: "GroupDocs.Watermark On Premise APIs Include"
-      link: "https://products.groupdocs.com/watermark/"
+      link: "/watermark/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "https://products.groupdocs.com/watermark/net/"
+        - link: "/watermark/net/"
           img_alt: "GroupDocs.Watermark for .NET"
           image: "/logo/net/groupdocs-watermark.png"
           product: "GroupDocs.Watermark for"
@@ -60,7 +60,7 @@ apis:
           content: "Native .NET API to efficiently add, edit or delete annotations from documents and images. Supports working with all popular watermark types."
 
         # api_product loop
-        - link: "https://products.groupdocs.com/watermark/java/"
+        - link: "/watermark/java/"
           img_alt: "GroupDocs.Watermark for Java"
           image: "/logo/java/groupdocs-watermark.png"
           product: "GroupDocs.Watermark for"
