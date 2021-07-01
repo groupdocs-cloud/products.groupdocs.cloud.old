@@ -1,4 +1,4 @@
-# sdks.groupdocs.cloud
+# products.groupdocs.cloud
 GroupDocs Cloud Landing Pages
 
 ### Run localy
