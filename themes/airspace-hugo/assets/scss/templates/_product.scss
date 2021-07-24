@@ -647,3 +647,52 @@
         }
     }
 }
+
+@media (max-width: 668px) {
+  body {
+    overflow-x: hidden;
+  }
+  .overview-tabs ul.nav {
+    display: block;
+    align-items: center;
+    width: 100%;
+  }
+  .overview-tabs ul.nav li {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .overview-tabs ul.nav .active {
+    margin-top: 0 !important;
+    min-height: auto !important;
+  }
+  .overview-tabs .diagram1 .d1-logo {
+    top: -250px;
+    display: none !important;
+  }
+  .overview-tabs .diagram1 {
+    margin: 10px !important;
+  }
+  .diagram1 header {
+    padding: 0 !important;
+    color: #333 !important;
+    background: 0 0 !important;
+  }
+  .diagram1 header i {
+    display: none !important;
+  }
+  .support .btn-support {
+    display: block;
+    white-space: break-spaces;
+    margin-bottom: 15px;
+  }
+  .footer2anchor,
+  .footer2col p {
+    line-height: 50px;
+  }
+}
+.our-products .product-item p {
+  min-height: 90px !important;
+  height: inherit !important;
+}
