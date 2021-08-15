@@ -1,0 +1,154 @@
+{{ $dot := . }}
+{{ $dot.Scratch.Set "path" "" }}
+{{ $dot.Scratch.Set "breadcrumb" slice }}
+
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+
+{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) }}
+  {{ range $index, $element := split $url "/" }}
+    {{ $dot.Scratch.Add "path" $element }}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ if ne $element "" }}
+    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) }}
+  {{ end }}
+{{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{{ range $.Scratch.Get "breadcrumb" }}{{ if ne .position 1 }},{{ end }}{
+        "@type": "ListItem",
+        "position": {{ .position }},
+        "item": {
+          "@id": "{{ .url }}",
+          "name": "{{ title .name }}"
+        }
+    }{{ end }}]
+}
+</script>
+
+{{ $family := index (split .RelPermalink "/") 1 }}
+{{ $platform := index (split .RelPermalink "/") 2 }}
+<script type = "application/ld+json" >
+{
+  "@context": "http://schema.org/",
+  "@type": "SoftwareApplication",
+  "name": "{{ if and $family $platform}}GroupDocs.{{title $family}} Cloud for {{ title $platform }}{{ end }}",
+  "applicationCategory": "REST API",
+  "image": [
+    "{{ .Site.BaseURL }}sdk/272x272/groupdocs_{{ $family }}-for-{{ $platform }}.webp"
+  ],
+  "description": "{{ .Page.Params.description }}",
+  "downloadUrl": "https://downloads.groupdocs.com/{{ $family }}/{{ $platform }}",
+  "releaseNotes": "https://docs.groupdocs.com/{{ $family }}/release-notes/",
+  "applicationSubCategory": "Cloud SDK",
+  "featureList": "https://docs.groupdocs.com/{{ $family }}/getting-started/",
+  "installUrl": "https://docs.groupdocs.cloud/{{ $family }}/quick-start/",
+  "acquireLicensePage": "https://purchase.groupdocs.cloud/trial",
+  "operatingSystem": [
+    "Windows",
+    "Linux",
+    "macOS"
+  ]
+}
+</script> 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  {{ if .Page.Params.overview.content }}"articleBody": "{{ .Page.Params.overview.content }}",{{ end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Site.BaseURL }}{{ .RelPermalink }}"
+  },
+  "headline": "{{ .Page.Params.title }}",
+  "description": "{{ .Page.Params.description }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}{{ if $platform }}sdk/272x272/groupdocs_{{ $family }}-for-{{ $platform }}.webp{{ else }}logo/groupdocs-{{ $family}}-cloud.png{{ end }}"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "GroupDocs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aspose Pty Ltd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cms.admin.containerize.com/templates/aspose/img/svg/aspose-logo.svg"
+    }
+  }
+}
+</script> 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GrouPDocs.",
+  "url": "https://www.groupdocs.cloud",
+  "logo": "https://cms.admin.containerize.com/templates/groupdocs/img/svg/groupdocs-logo.svg",
+  "sameAs": [
+    "https://www.facebook.com/GroupDocsCloud",
+    "https://twitter.com/GroupDocsCloud",
+    "https://www.linkedin.com/company/groupdocscloud",
+    "https://stackoverflow.com/questions/tagged/groupdocs",
+    "https://groupdocscloud.github.io/"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1 903 306 1676",
+      "contactType": "sales",
+      "areaServed": "US",
+      "availableLanguage": "en"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+44 141 628 8900",
+      "contactType": "sales",
+      "areaServed": "GB",
+      "availableLanguage": "en"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+61 2 8006 6987",
+      "contactType": "sales",
+      "areaServed": "AU",
+      "availableLanguage": "en"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.groupdocs.cloud",
+  "sameAs": [
+    "https://search.groupdocs.cloud",
+    "https://docs.groupdocs.cloud",
+    "https://blog.groupdocs.cloud",
+    "https://forum.groupdocs.cloud",
+    "https://products.groupdocs.cloud",
+    "https://about.groupdocs.cloud",
+    "https://purchase.groupdocs.com/buy",
+    "https://apireference.groupdocs.cloud",
+    "https://releases.groupdocs.cloud/"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://search.groupdocs.cloud/q/{search_term_string}.html",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
