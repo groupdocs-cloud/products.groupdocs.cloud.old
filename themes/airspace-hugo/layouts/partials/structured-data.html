@@ -65,7 +65,7 @@
     "@id": "{{ .Site.BaseURL }}{{ .RelPermalink }}"
   },
   "headline": "{{ .Page.Params.title }}",
-  "description": "{{ .Page.Params.description }}",
+  "description": "{{ .Page.Params.description | markdownify }}",
   "image": {
     "@type": "ImageObject",
     "url": "{{ .Site.BaseURL }}{{ if $platform }}sdk/272x272/groupdocs_{{ $family }}-for-{{ $platform }}.webp{{ else }}logo/groupdocs-{{ $family}}-cloud.png{{ end }}"
