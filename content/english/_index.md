@@ -471,4 +471,9 @@ product:
         enable: true
         label: "GroupDocs.Translation"
         link: "translation/python/"
+        
+      button_android:
+        enable: true
+        label: "GroupDocs.Translation"
+        link: "translation/android/"        
 ---
